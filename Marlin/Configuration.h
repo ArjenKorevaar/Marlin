@@ -72,7 +72,7 @@
 
 // Author info of this build printed to the host during boot and M115
 // #define STRING_CONFIG_H_AUTHOR "(none, default config)" // Who made the changes.
-#define STRING_CONFIG_H_AUTHOR "(Arjen, default config)" // CUSTOM: author
+#define STRING_CONFIG_H_AUTHOR "Arjen Korevaar, default config" // CUSTOM: author
 //#define CUSTOM_VERSION_FILE Version.h // Path from the root directory (no quotes)
 
 /**
@@ -1748,6 +1748,7 @@
 // Add individual axis homing items (Home X, Home Y, and Home Z) to the LCD menu.
 //
 //#define INDIVIDUAL_AXIS_HOMING_MENU
+#define INDIVIDUAL_AXIS_HOMING_MENU // CUSTOM:
 
 //
 // SPEAKER/BUZZER
@@ -1779,6 +1780,7 @@
 // Note: Usually sold with a white PCB.
 //
 //#define REPRAP_DISCOUNT_SMART_CONTROLLER
+#define REPRAP_DISCOUNT_SMART_CONTROLLER // CUSTOM: Use Smart Controller
 
 //
 // Original RADDS LCD Display+Encoder+SDCardReader
