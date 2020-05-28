@@ -1834,6 +1834,7 @@
 // Generic 16x2, 16x4, 20x2, or 20x4 character-based LCD.
 //
 //#define ULTRA_LCD
+#define ULTRA_LCD // CUSTOM: Enable Ultra LCD type
 
 //=============================================================================
 //======================== LCD / Controller Selection =========================
